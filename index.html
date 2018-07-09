@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+</head>
+<body ng-app>
+  <form name="myForm">
+    <label>Mail Adresse : </label>
+    <input type="email" name="myMail" ng-model="myMail" required>
+  </form>
+
+  <style>
+  input.ng-invalid {
+    background-color: red;
+  }
+  input.ng-valid {
+    background-color: green;
+  }
+  </style>
+</body>
+</html>
